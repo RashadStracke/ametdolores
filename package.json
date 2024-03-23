@@ -1,0 +1,58 @@
+{
+  "name": "ametdolores",
+  "version": "1.0.0",
+  "description": "A MetaMask compatible keyring, for ledger hardware wallets",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint --fix . --ext .js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RashadStracke/ametdolores.git"
+  },
+  "keywords": [
+    "ethereum",
+    "ullam",
+    "minima",
+    "metamask"
+  ],
+  "author": "MeghanRatke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RashadStracke/ametdolores.git/issues"
+  },
+  "homepage": "https://github.com/RashadStracke/ametdolores.git",
+  "resolutions": {
+    "mocha/**/mkdirp": "^0.5.3"
+  },
+  "dependencies": {
+    "eth-sig-util": "^1.4.2",
+    "ethereumjs-tx": "^1.3.4",
+    "ethereumjs-util": "^7.0.9",
+    "events": "^2.0.0",
+    "hdkey": "0.8.0"
+  },
+  "devDependencies": {
+    "@metamask/eslint-config": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^6.2.2",
+    "mocha": "^5.0.4"
+  }
+}
